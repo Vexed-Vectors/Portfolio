@@ -1,0 +1,283 @@
+body {
+  background: #282c33; 
+ color: white;
+ font-family: Fira Code;
+}
+
+.home {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+  height: 100vh;
+}
+div1 {
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+
+
+div2 {
+  /* border: 1px solid black; */
+}
+div3 {
+  /* border: 1px solid black; */
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  align-items: flex-end;
+  font-family: "Fira Code";
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  width: 60%;
+}
+select {
+  border: none;
+  background-color: #282c33;
+  color: white;
+}
+.hash {
+  color: #c778dd;
+}
+.Union {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+  margin-left: 2%;
+}
+
+hero {
+  height: 50vh;
+  /* border: 1px solid green; */
+  align-items: center;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  justify-content: space-between;
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+.logo {
+  z-index: -1;
+  display: flex;
+  position: absolute;
+  width: 8%;
+  top: 31%;
+}
+.dots {
+  z-index: +1;
+  display: flex;
+  justify-self: flex-end;
+  position: absolute;
+  right: 17%;
+  top: 47%;
+  width: 6%;
+}
+.man {
+  z-index: 0;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.text {
+  /* border: 2px solid red; */
+  height: 40vh;
+
+  align-items: center;
+  overflow: hidden;
+}
+.pic {
+  /* border: 2px solid red; */
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: space-around;
+}
+.highlight {
+  font-family: Fira Code;
+  font-size: 21px;
+  font-weight: 600;
+
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c778dd;
+}
+.MainText {
+  font-family: Fira Code;
+  font-size: 21px;
+  font-weight: 500;
+
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.websites {
+  font-family: Fira Code;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contact {
+  border: 1px solid #c778dd;
+  background-color: #282c33;
+  margin-left: 1%;
+  margin-bottom: 0;
+  color: white;
+  margin-top: 1%;
+  font-family: Fira Code;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.contact:hover{
+    transition : background-color 0.5s;
+    background-color: #c778dd;
+}
+
+.current{
+    margin-top: 6%;
+  font-family: Fira Code;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  border: 0.5px solid whitesmoke;
+
+}
+
+.line{
+    transform: rotate(90deg);
+    margin-left: -70px;
+    border:1px solid white;
+    background-color: white;
+}
+
+/* .social{
+    margin-left: 13px;
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    max-width: 2px;
+
+    
+
+} */
+
+.github{
+    margin-left: 45px;
+    margin-top: 53%;
+}
+.linkedIn{
+    margin-left: 50px;
+    margin-top:0;
+
+}
+.mail{
+    margin-left: 50px;
+    margin-top: -5px;;
+
+}
+
+fieldset{
+    border: 1px solid #c778dd;
+
+}
+
+bill{
+    border: 1px solid white;
+    
+    padding:4%;
+    margin-top: 15%;
+    margin-left: 15%;
+    z-index: 0;
+    font-family: Fira Code;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.doctor{
+    margin-top: 3.8%;
+    border: 1px solid white;
+    max-width: fit-content;
+    padding: 1%;
+    border-collapse: collapse;
+    margin-left: 57.8%;
+    font-family: Fira Code;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.comma1{
+    position: absolute;
+    z-index: +1;
+    margin-left: 0.15%;
+    top:70vh;
+}
+
+.comma2{
+    position: absolute;
+    z-index: +1;
+   margin-left: 2%;
+    top:88%;
+    right:40%;
+
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+   
+}
+
+.MainHead{
+    display: flex;
+    align-items: center;
+    width:85%;
+    
+}
+h2{
+    display: flex;
+    max-width: fit-content;
+}  
+.proj-rule{
+    display: flex;
+    border: 0.25px solid #c778dd;
+    width: 45%;
+    height: 1px;
+    justify-content: space-between;
+}
+.view-all{
+ 
+    width: 30%;
+    
+    margin-right: 6%;
+
+
+}
+
+.tw-dots{
+    position: absolute;
+    top:100%;
+
+}
